@@ -7,7 +7,7 @@ def rescaleFrame(frame, scale=0.25):
     height = max(1, int(frame.shape[0] * scale))
     return cv2.resize(frame, (width, height), interpolation=cv2.INTER_AREA)
 
-cap = cv2.VideoCapture(r'C:\Users\DELL\PycharmProjects\PythonProject5\Pose estimation\videos\video 5.mp4')
+cap = cv2.VideoCapture(0)
 pTime = 0
 detector = pm.PoseDetector()
 

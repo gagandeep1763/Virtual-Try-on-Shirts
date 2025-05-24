@@ -52,7 +52,7 @@ def rescaleFrame(frame, scale=0.25):  # Increased default scale
 
 
 def main():
-    cap = cv2.VideoCapture(r'C:\Users\DELL\PycharmProjects\PythonProject5\Pose estimation\videos\video 3.mp4')
+    cap = cv2.VideoCapture(0)
     pTime = 0
     detector = PoseDetector()
 

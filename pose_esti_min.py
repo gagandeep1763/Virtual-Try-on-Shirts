@@ -9,7 +9,7 @@ pose = mpPose.Pose()
 
 draw_spec = mpDraw.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=4)
 
-cap = cv2.VideoCapture(r'C:\Users\DELL\PycharmProjects\PythonProject5\Pose estimation\videos\video 1.mp4')
+cap = cv2.VideoCapture(0)
 pTime = 0
 
 def rescaleFrame(frame, scale=0.25):
